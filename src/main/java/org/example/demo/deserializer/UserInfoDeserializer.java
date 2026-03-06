@@ -2,9 +2,10 @@ package org.example.demo.deserializer;
 
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.common.serialization.Deserializer;
 import org.example.demo.entities.UserInfoDto;
-import tools.jackson.databind.ObjectMapper;
+
 
 import java.util.Map;
 

@@ -12,6 +12,8 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.Setter;
 
+
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,8 +24,8 @@ import lombok.Setter;
 public class UserInfo
 {
 
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    private Long id;
 
     @Id
     @JsonProperty("user_id")
